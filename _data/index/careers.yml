@@ -1,7 +1,7 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: 宁波弘泰水利
     i18n: company_a
   desc:
     detail: I worked at Company A ...
@@ -15,7 +15,7 @@
   icon: fa-plus-square
 
 - name:
-    detail: Company B
+    detail: 北京鼎捷软件
     i18n: company_b
   desc:
     detail: I worked at Company B ...
