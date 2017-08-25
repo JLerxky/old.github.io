@@ -1,23 +1,10 @@
-<div class="container">
-    <ul class="pagination">
-
-        {% if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">«</a></li>
-        {% endif %}
-
-        {% for page in (1..paginator.total_pages) %}
-          {% if page == paginator.page %}
-              <li class="active"><a href="#">{{ page }} <span class="sr-only">(current)</span></a></li>
-          {% elsif page == 1 %}
-              <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-          {% else %}
-              <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-          {% endif %}
-        {% endfor %}
-
-        {% if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">»</a></li>
-        {% endif %}
-
-    </ul>
-</div>
+{% if counter > 5 %}
+    <div class="col-lg-6 col-lg-offset-6">
+		<div class="pag-holder"></div>
+	</div>
+{% endif %}
+{% if counter == 0 %}
+    <div class="col-lg-8 col-lg-offset-2">
+		<p>Sorry,no blog！</p>
+    </div>
+{% endif %}
