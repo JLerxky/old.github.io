@@ -2,28 +2,28 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
     detail: 宁波弘泰水利
-    i18n: company_a
+    i18n: HT
   desc:
-    detail: I worked at Company A ...
-    i18n: company_a_desc
+    detail: I worked at HT ...
+    i18n: HT_desc
   date:
     detail: Apr. 2016
-    i18n: company_a_date
+    i18n: HT_date
   job:
-    detail: CTO
-    i18n: company_a_job
+    detail: java 开发
+    i18n: HT_job
   icon: fa-plus-square
 
 - name:
     detail: 北京鼎捷软件
-    i18n: company_b
+    i18n: DG
   desc:
-    detail: I worked at Company B ...
-    i18n: company_b_desc
+    detail: I worked at DG ...
+    i18n: DG_desc
   date:
     detail: Jun. 2015
-    i18n: company_b_date
+    i18n: DG_date
   job:
-    detail: Full Stack Developer
-    i18n: company_b_job
+    detail: 服务顾问
+    i18n: DG_job
   icon: fa-plus-square
