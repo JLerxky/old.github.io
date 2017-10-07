@@ -1,4 +1,4 @@
-我们抛开架构设计，抛开传统的 http、 socket、  rpc通讯协议，我们聊一聊在 Node .js应用里如何连接  Java API，换句话来说就是在 Node.js里直接写 Java代码。
+在 Node .js应用里如何连接  Java API，换句话来说就是在 Node.js里直接写 Java代码。
 
 node-java
 
